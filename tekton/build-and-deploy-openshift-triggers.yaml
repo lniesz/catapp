@@ -104,7 +104,7 @@ spec:
     bindings:
       - ref: catapp-build-and-deploy
     template:
-      ref: catapp-build-and-deploy
+      name: catapp-build-and-deploy
 ---
 apiVersion: route.openshift.io/v1
 kind: Route
